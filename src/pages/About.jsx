@@ -132,7 +132,7 @@ const AboutPublicHealth = () => {
       </div>
 
       <h1 className="text-4xl mt-2 font-bold text-one">
-Fostering Collaboration Driving Transformative Healthcare Innovation.
+Fostering Collaboration Driving Transformative Healthcare Innovation
       </h1>
       <p className="text-center text-gray-600 text-3xl mb-6">
         <strong>
