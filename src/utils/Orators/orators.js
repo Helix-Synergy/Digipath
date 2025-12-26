@@ -1,42 +1,40 @@
 // Techmatics Images
-import Francesa from "../../assets/Orator Banners/Francesca.webp"
-import Christophe from "../../assets/Orator Banners/Christophe.png"
-import Van from "../../assets/Orator Banners/Douwe.png"
-import Alje from "../../assets/Orator Banners/Alejandro.jpg"
-import vladimirGChigrinov from "../../assets/Pannel Members/e4.jpg"
-import jiashengZhu from "../../assets/Pannel Members/e7.jpg"
-import penouo from "../../assets/Pannel Members/Paneuo.jpg"
+import Nadia from "../../assets/Orator Banners/Nadia.png"
+import Ibrahim from "../../assets/Orator Banners/Ibrahim.png"
+import Omar from "../../assets/Orator Banners/Omar.png"
+import Shahla from "../../assets/Orator Banners/Shahla.png"
+
   export const orators = [
     {
       id: "andreas-m-papas",
-      image: Francesa,
-      name: "Francesca Bottacini",
-      from: "Ireland",
-      about: "APC Microbiome Ireland",
+      image: Nadia,
+      name: "Nadia Hameed",
+      from: "United states",
+      about: "Texas MD ANDERSON Cancer centre (USA)",
       // link: "/techmatics-orators/siti-rahman"
     },
     {
       id: "maria-richards-brown",
-      image: Christophe,
-      name: "Christophe Lacroix",
-      from: "Switzerland",
-      about: "ETH Zurich",
+      image: Ibrahim,
+      name: " Ibrahim Mansoor",
+      from: "Saudi Arabia",
+      about: "King’s College London (Jeddah)",
       // link: "/techmatics-orators/abdullah-aydin",
     },
     {
       id: "rassa-pegahi",
-      image: Van,
-      name: "Douwe Van Sinderen",
-      from: "Ireland",
-      about: "University College Cork",
+      image: Omar,
+      name: "Omar Ali",
+      from: "United Kingdom",
+      about: "Kings College Landon",
       // link: "/techmatics-orators/janani-varun",
     },
     {
       id: "anna-w-sobanska",
-      image:Alje,
-      name: "Alejandro Reyes",
-      from: "Colombia",
-      about: "University of Los Andes",
+      image: Shahla,
+      name: "Dr. Zev Leifer",
+      from: "United states",
+      about: "The  Leifer Institute for Molecular and Digital Pathology",
       // link: "/techmatics-orators/abdeen-omer",
     },
     // Second row

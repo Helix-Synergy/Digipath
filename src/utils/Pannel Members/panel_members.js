@@ -1,41 +1,41 @@
 
 // images
-import Paulo from "../../assets/Pannel Members/Paul-Cotter.webp";
-import Koji from "../../assets/Pannel Members/Koji.jpg";
-import Sarah from "../../assets/Pannel Members/Sarah.png";
-import Justin from "../../assets/Pannel Members/Justin.jpg";
+import Juliana from "../../assets/Pannel Members/Juliana.png";
+import Sidani from "../../assets/Pannel Members/Sidani.png";
+import Noskova from "../../assets/Pannel Members/Noskova.png";
+import Qunn from "../../assets/Pannel Members/Qunn.png";
 
 export const panel_members_about = [
   {
     id: "Paul",
-    image: Paulo,
-    name: "Paul Cotter",
-    from: "Ireland",
-    about: "Teagasc Food Research Centre ",
+    image: Juliana,
+    name: "Dr. Juliana Bicca",
+    from: "Brazil",
+    about: "Federal University of Santa Catarina",
     // link: "/executive-panel-members/velimir",
   },
   {
     id: "Koji Nomura ",
-    image: Koji,
-    name: "Koji Nomura" ,
-    from: "Japan",
-    about: " University of Tokyo ",
+    image: Sidani,
+    name: "Dr. Sacha Sidani" ,
+    from: "Canada",
+    about: "Gastroentérologue/Gastroenterologist CHUM"
     // link: "/executive-panel-members/Raenu",
   },
   {
     id: "Rd",
-    image:Sarah,
-    name: "Sarah Lebeer",
-    from: "Belgium",
-    about: "University of Antwerp",
+    image: Noskova,
+    name: "Ms. Noskova Karina",
+    from: "Russia",
+    about: "Moscow Health Department",
     // link: "/executive-panel-members/Rd",
   },
   {
     id: "Paulo",
-    image: Justin,
-    name: "Justin L. Sonnenburg",
-    from: "USA",
-    about: "Stanford University",
+    image: Qunn,
+    name: "Dr. Qun Dang",
+    from: "China",
+    about: "Jilin University",
     // link: "/executive-panel-members/Paulo",
   },
   // Second row
