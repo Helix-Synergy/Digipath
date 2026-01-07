@@ -66,7 +66,7 @@ export const tracks = [
     title: "Cancer Diagnosis",
     description: (
       <>
-      This track delves intoThis track delves into{" "}
+      This track delves into{" "}
         <Link
           to="https://helixconferences.com/buy-a-ticket"
           className="hover:text-accent hover:decoration-accent
