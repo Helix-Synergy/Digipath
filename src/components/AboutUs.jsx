@@ -19,7 +19,7 @@ const AboutUs = () => {
         <img
           src={about_img}
           alt="DIGIPATH"
-className="h-[40vh] md:min-h-[50vh] max-h-[420px] w-auto md:max-w-[420px] mx-auto md:mx-16 rounded-xl object-contain"
+className="h-[30vh] md:min-h-[40vh] max-h-[350px] w-auto md:max-w-[420px] mx-auto md:mx-16 rounded-xl object-contain"
 loading="lazy"
         />
       </div>
@@ -32,7 +32,7 @@ loading="lazy"
           <span className="text-one">Advancing Global Leadership  </span>{" "}
   in Digital Pathology & AI-Driven Diagnostics
         </h1>
-        <p className="text-base my-2">
+        <p className="text-base my-2 text-justify">
          Welcome to the premier global platform for  <Link to= "/digipath-conference-tracks/" className="
              hover:text-accent hover:decoration-accent
              transition-colors duration-300"> Digital Pathology & Computational Diagnostics Conference. </Link> Our international summits convene leading experts and decision-makers driving advancements in digital pathology, artificial intelligence, precision diagnostics, and data-driven healthcare innovation.{" "}

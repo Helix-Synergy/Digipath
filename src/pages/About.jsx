@@ -131,9 +131,9 @@ const AboutPublicHealth = () => {
         </h1>
       </div>
 
-      <h1 className="text-4xl mt-2 font-bold text-one">
+      <h2 className="text-4xl mt-2 font-bold text-one">
 Fostering Collaboration Driving Transformative Healthcare Innovation
-      </h1>
+      </h2>
       <p className="text-center text-gray-600 text-3xl mb-6">
         <strong>
           21<sup></sup> - 22<sup></sup> May 2026
@@ -143,7 +143,7 @@ Fostering Collaboration Driving Transformative Healthcare Innovation
       {data.event.description.map((desc, idx) => (
         <p
           key={idx}
-          className="mb-6 text-lg leading-relaxed text-center w-full min-w-5xl px:2 md:px-12 lg:px-24"
+          className="mb-6 text-lg leading-relaxed text-center w-full min-w-5xl px:2 md:px-12 lg:px-24 text-justify"
         >
           {desc}
         </p>
@@ -157,7 +157,7 @@ Fostering Collaboration Driving Transformative Healthcare Innovation
         {data.join.map((para, idx) => (
           <p
             key={idx}
-            className="mb-6 text-lg leading-relaxed text-center w-full min-w-5xl px:2 md:px-12 lg:px-24"
+            className="mb-6 text-lg leading-relaxed text-center w-full min-w-5xl px:2 md:px-12 lg:px-24 "
           >
             {para.text} <Link to={para.link}>{para.linkText}</Link>
             {para.suffix}

@@ -28,9 +28,9 @@ const Home = () => {
             </div>
           </div>
 
-          <h1 className="text-3xl md:text-6xl my-4 w-full md:w-[90vw] text-white">
+          <h2 className="text-3xl md:text-6xl my-4 w-full md:w-[90vw] text-white">
       Digital Pathology & AI Diagnostics Congress
-          </h1>
+          </h2>
 
           <p className="text-2xl md:text-5xl text-accent">
       DIGIPATH-2026

@@ -20,7 +20,7 @@ DIGIPATH- Tracks
           >
             <img
               src={icon}
-              alt=""
+              alt="Tracks Icon"
               className="h-8 w-8 object-contain shrink-0"
               loading="lazy"
             />
