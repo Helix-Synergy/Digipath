@@ -39,7 +39,7 @@ loading="lazy"
           <Link
             className="text-accent font-bold"
             target="_blank"
-            to="https://helixconferences.com/blog.php"
+            // to="https://helixconferences.com/blog.php"
           ></Link>{" "}
         </p>
 <p>“Empowering Precision Medicine Through Digital Pathology & Intelligent Diagnostics”</p>

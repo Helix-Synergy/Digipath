@@ -10,22 +10,22 @@ const faqLinks = {
 
 export const faqData = [
   {
-    question: "What is DIGIPATH-2026?",
+    question: "What is DIGIPATH-2027?",
     answer:
-      "DIGIPATH-2026, officially titled the “Digital Pathology & AI Diagnostics Congress”, is a premier international conference organized by Helix Conferences. It brings together pathologists, AI researchers, clinicians, healthcare professionals, technology providers, and industry leaders to explore advancements in digital pathology, artificial intelligence, computational diagnostics, precision medicine, and clinical decision support systems.",
+      "DIGIPATH-2027, officially titled the “Digital Pathology & AI Diagnostics Congress”, is a premier international conference organized by Helix Conferences. It brings together pathologists, AI researchers, clinicians, healthcare professionals, technology providers, and industry leaders to explore advancements in digital pathology, artificial intelligence, computational diagnostics, precision medicine, and clinical decision support systems.",
   },
   {
-    question: "When and where will DIGIPATH-2026 take place?",
+    question: "When and where will DIGIPATH-2027 take place?",
     answer:
-      "DIGIPATH-2026 will take place in 2026. The exact dates and venue will be announced soon.",
+      "DIGIPATH-2027 will take place in 2027. The exact dates and venue will be announced soon.",
   },
   {
-    question: "What are the highlights of DIGIPATH-2026?",
+    question: "What are the highlights of DIGIPATH-2027?",
     answer:
       "Keynote lectures, AI-driven diagnostic innovations, expert-led scientific sessions, clinical case studies, technology demonstrations, panel discussions, and global networking opportunities.",
   },
   {
-    question: "What conference tracks are featured at DIGIPATH-2026?",
+    question: "What conference tracks are featured at DIGIPATH-2027?",
     answer: (
       <>
         You can explore the full list of tracks here:{" "}
@@ -35,7 +35,7 @@ export const faqData = [
           rel="noopener noreferrer"
           className="text-blue-600 underline"
         >
-          DIGIPATH-2026 Tracks
+          DIGIPATH-2027 Tracks
         </a>
         .
       </>
@@ -55,7 +55,7 @@ export const faqData = [
     ),
   },
   {
-    question: "How can I submit an abstract for DIGIPATH-2026?",
+    question: "How can I submit an abstract for DIGIPATH-2027?",
     answer: (
       <>
         You can submit your abstract{" "}
@@ -87,14 +87,14 @@ export const faqData = [
       "Oral presentations are typically 15–20 minutes long, including Q&A. Final presentation guidelines will be shared after abstract acceptance.",
   },
   {
-    question: "Who will be attending DIGIPATH-2026?",
+    question: "Who will be attending DIGIPATH-2027?",
     answer:
       "Pathologists, oncologists, radiologists, AI and data science professionals, researchers, healthcare technology providers, regulatory experts, and academicians from around the world.",
   },
   {
     question: "How many people usually attend the congress?",
     answer:
-      "DIGIPATH-2026 is expected to host 120+ international attendees, including speakers, delegates, exhibitors, and sponsors.",
+      "DIGIPATH-2027 is expected to host 120+ international attendees, including speakers, delegates, exhibitors, and sponsors.",
   },
   {
     question: "Can I register for multiple speaking sessions?",

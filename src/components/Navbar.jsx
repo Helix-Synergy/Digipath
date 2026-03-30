@@ -137,7 +137,7 @@ const Navbar = () => {
         </div>
 
         {/* Mobile/Tablet Burger Menu Button */}
-        <div className="lg:hidden ml-auto z-300">
+        <div className="lg:hidden ml-auto z-50 ml-[190px]">
           <button onClick={() => setIsOpen(!isOpen)}>
             {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
           </button>
@@ -145,33 +145,33 @@ const Navbar = () => {
       </div>
 
       {/* Mobile/Tablet Navigation Drawer */}
-      {isOpen && (
-        <div className="lg:hidden bg-white px-4 pb-4 space-y-4 shadow-md">
-          {nav_links.map((item, index) => (
-            <Link
-              key={index}
-              to={item.link}
-              className="block text-sm text-gray-800 hover:text-accent transition ml-8"
-              onClick={() => setIsOpen(false)}
-            >
-              {item.name}
-            </Link>
-          ))}
-          <div className="flex flex-col items-center gap-2">
-            <div id="google_translate_element" className="mt-2"></div>
-            <Link
-              to="https://helixconferences.com/buy-a-ticket"
-              className="block w-full border border-one text-center py-2 rounded-full text-accent hover:bg-accent hover:text-white transition"
-            >
-              Register
-            </Link>
-            <div
-              id="google_translate_element"
-              className="font-sm text-one"
-            ></div>
-          </div>
-        </div>
-      )}
+{isOpen && (
+  <div className="lg:hidden bg-white px-4 pb-4 space-y-4 shadow-md">
+    {nav_links.map((item, index) => (
+      <Link
+        key={index}
+        to={item.link}
+        className="block py-2 text-sm text-gray-800 hover:text-accent transition ml-8"
+        onClick={() => setIsOpen(false)}
+      >
+        {item.name}
+      </Link>
+    ))}
+
+    <div className="flex flex-col items-center gap-3">
+      <div id="google_translate_element" className="mt-2"></div>
+
+      <a
+        href="https://helixconferences.com/buy-a-ticket"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="block w-full border border-one text-center py-2 rounded-full text-accent hover:bg-accent hover:text-white transition"
+      >
+        Register
+      </a>
+    </div>
+  </div>
+)}
     </header>
   );
 };
